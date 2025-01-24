@@ -1,9 +1,18 @@
 body {
-  background-color: gainsboro;
+  background-color: #2d2d44;
   text-align: center;
 }
 
 .photo {
   height: 100px;
   border-radius: 300px;
+}
+
+.computer {
+  background-color: red;
+  height: 200px;
+}
+
+.player {
+  background-color: blue;
 }
