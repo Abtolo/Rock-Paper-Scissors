@@ -8,42 +8,44 @@
   </head>
   <header>
     <div>
-      <h1>Rock Paper Scissors Game</h1>
-      <button>Restart</button>
+      <h1 class="title">Rock Paper Scissors Game</h1>
+      <button class="restart-btn">Restart</button>
     </div>
   </header>
   <body>
     <div class="computer">
       <h2>Computer</h2>
-      <h2>Score :</h2>
-
-      <h3 class="computer-response">Computer's choice : ??</h3>
-      <img class="computer-choice" src="" />
+      <h2 class="comp-score">Score :</h2>
+      <img class="computer-choice" src="images/blanc.jpeg" />
     </div>
     <div class="player">
+      <h4 class="text-scoring">Start Playing</h4>
       <h2>You</h2>
-      <h2>Score :</h2>
-      <h3 class="your-response">Your choice : ??</h3>
-      <img class="you-choice" src="" />
-      <div>
-        <h6>Choose one</h6>
-        <button>
-          <img alt="Rock" class="photo" id="photo--1" src="Images/rock.png" />
-        </button>
-        <button>
+      <h2 class="user-score">Score :</h2>
+      <img class="you-choice" src="images/blanc.jpeg" />
+      <div class="choices">
+        <button class="photoBtn">
           <img
-            alt="Paper"
-            class="photo"
-            id="photo--2"
-            src="Images/paperss.png"
+            alt="Rock"
+            class="photoClicked"
+            id="photo--1"
+            src="Images/rock.png"
           />
         </button>
-        <button>
+        <button class="photoBtn">
+          <img
+            alt="Paper"
+            class="photoClicked"
+            id="photo--2"
+            src="Images/Paper.png"
+          />
+        </button>
+        <button class="photoBtn">
           <img
             alt="Scissors"
-            class="photo"
+            class="photoClicked"
             id="photo--3"
-            src="Images/scissorss.png"
+            src="Images/scissors.png"
           />
         </button>
       </div>
