@@ -24,17 +24,15 @@ const generateComputerChoice = function (boolean, number) {
 const playgame = function (playerChoices, computerChoice) {
   if (scores[0] >= 10) {
     textScore.textContent = "Player wins the Game👌";
-    player.style.backgroundColor = "green";
-    computer.style.backgroundColor = "grey";
+    player.style.backgroundColor = "#22ff00";
+    computer.style.backgroundColor = "White";
   } else if (scores[1] >= 10) {
     textScore.textContent = "Computer wins the Game😭";
-    player.style.backgroundColor = "grey";
-    computer.style.backgroundColor = "green";
+    player.style.backgroundColor = "white";
+    computer.style.backgroundColor = "#22ff00";
   } else {
     userChoiceDisplay.setAttribute("src", `Images/${playerChoices}.png`);
     computerChoiceDisplay.setAttribute("src", `Images/${computerChoice}.png`);
-
-    console.log(scores[0]);
 
     if (playerChoices === "Rock" && computerChoice === "Scissors") {
       textScore.textContent = "You Win, 1 point for you";
