@@ -1,7 +1,7 @@
 body {
-  background-color: #ffffff;
+  background-color: #2d2d44;
   text-align: center;
-  color: #2d2d44;
+  color: #ffffff;
 }
 
 .photo {
@@ -12,10 +12,12 @@ body {
 .computer {
   background-color: red;
   height: 200px;
+  border-radius: 20px;
 }
 
 .player {
   background-color: blue;
+  border-radius: 20px;
 }
 
 .photoBtn {
