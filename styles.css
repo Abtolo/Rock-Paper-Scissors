@@ -16,6 +16,7 @@ body {
 }
 
 .player {
+  margin-top: 20px;
   background-color: blue;
   border-radius: 20px;
 }
