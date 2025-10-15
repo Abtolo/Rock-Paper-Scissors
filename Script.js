@@ -22,11 +22,11 @@ const generateComputerChoice = function (boolean, number) {
 };
 
 const playgame = function (playerChoices, computerChoice) {
-  if (scores[0] >= 10) {
+  if (scores[0] >= 9) {
     textScore.textContent = "Player wins the Game👌";
     player.style.backgroundColor = "#22ff00";
     computer.style.backgroundColor = "White";
-  } else if (scores[1] >= 10) {
+  } else if (scores[1] >= 9) {
     textScore.textContent = "Computer wins the Game😭";
     player.style.backgroundColor = "white";
     computer.style.backgroundColor = "#22ff00";
